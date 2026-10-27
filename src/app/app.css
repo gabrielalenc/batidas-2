@@ -1,0 +1,21 @@
+/* Injects Tailwind's base styles (resets, Normalize.css) */
+@tailwind base;
+
+/* Injects any custom or built-in component styles */
+@tailwind components;
+
+/* Injects all utility classes (e.g., p-4, text-center) */
+@tailwind utilities;
+
+:root {
+  --color-verde-tropical: #173D2B;
+  --color-verde-secundario: #28583D;
+  --color-laranja-vibrante: #F28B30;
+  --color-amarelo-solar: #FFD66B;
+  --color-creme-baunilha: #FFF4DB;
+  --color-texto-escuro: #243126;
+}
+
+html {
+  scroll-behavior: smooth;
+}
